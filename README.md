@@ -1,2 +1,2 @@
-# T-P-Website
+# TnP-Website
 Training and Placement Cell SGGSIE&amp;T, Nanded
