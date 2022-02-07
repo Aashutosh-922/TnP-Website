@@ -1,0 +1,656 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+:root {
+    --muli: 'mulish';
+    --primary-blue: #0d6efd;
+    --little-grey: #f6f7f6;
+}
+
+/* -----------------------------------------
+HEMANT'S SECTION STARTS HERE
+-------------------------------------------- */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.bgc {
+    background-color: white;
+    padding: 10px 0px !important;
+    position: fixed !important;
+}
+
+.grid-box {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.login-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.drives-section {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.cus-btn {
+    width: 160px;
+    border-radius: 8px;
+    padding: 8px;
+    /* display: inline; */
+    text-align: center;
+    background-color: var(--primary-blue);
+    color: white;
+    transition: all .2s ease-out;
+}
+
+.cus-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+*>a {
+    text-decoration: none !important;
+}
+
+.logo-tag {
+    display: flex;
+    align-items: flex-end;
+}
+
+.tag {
+    font-size: 18px;
+    color: var(--primary-blue);
+    font-family: 'montserrat';
+    align-self: flex-end;
+}
+
+.divider {
+    height: 50px;
+    width: 1px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 0px 6px;
+    align-self: center;
+}
+
+.logo-img {
+    height: 60px;
+    width: 60px;
+}
+
+.social-wrap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.social-wrap a {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background: var(--primary-blue);
+    position: relative;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+}
+
+.social-wrap> :last-child {
+    background-color: white;
+}
+
+.social-wrap a>svg {
+    justify-self: center;
+    align-self: center;
+    color: white;
+    /* vertical-align: top; */
+}
+
+.social-wrap a>img {
+    position: absolute;
+    width: 130%;
+    height: 130%;
+    justify-self: center;
+    align-self: center;
+    color: white;
+    /* vertical-align: top; */
+}
+
+.social-wrap a:hover {
+    background: black;
+}
+
+.past-recruiter-container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--little-grey);
+    padding: 5% 10%;
+}
+
+.section-heading h3 {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.company-logo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.comp-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--little-grey);
+}
+
+.comp-logo img {
+    /* width: 50px; */
+    height: 50px;
+    object-fit: cover;
+}
+
+.comp-logo>span {
+    color: black;
+}
+
+/* ---------------------------
+   ALUMNI SECTION STARTS
+---------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--op-sans);
+}
+
+:root {
+    --zen: 'Zen Antique Soft';
+    --op-sans: 'Open Sans';
+}
+
+.img-text {
+    display: flex;
+    padding: 10px 20px;
+}
+
+.alumni-img {
+    display: flex;
+    padding: 10px;
+    align-self: center;
+    /* width: 20%;
+    height: 20%; */
+}
+
+.alumni-img>img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.alumni-text {
+    padding: 10px;
+    font-size: 14px;
+    font-family: var(--op-sans);
+    line-height: 27px;
+    align-self: center;
+    text-align: center;
+}
+
+.car-inner-container {
+    position: relative;
+    padding: 40px 80px;
+    padding-bottom: 80px;
+    background-image: url(/assets/img/slider_4.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+
+.car-inner-container::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: rgba(0, 0, 0, 0.700);
+    top: 0;
+    left: 0;
+}
+
+.alumni-heading {
+    display: flex;
+    flex-direction: column;
+}
+
+.alumni-heading h1 {
+    margin: 20px 0px;
+    font-family: var(--op-sans);
+    text-align: center;
+    z-index: 10;
+    color: white;
+}
+
+.alumni-heading p {
+    margin: 20px 0px !important;
+    text-align: center;
+    z-index: 10;
+    color: white;
+}
+
+.carousel-inner {
+    /* margin: 50px 0px !important; */
+    /* padding: 20px; */
+    /* background-color: rgb(245, 245, 245); */
+    border-radius: 6px;
+    color: black;
+}
+
+.carousel-item {
+    background-color: white !important;
+}
+
+.carousel-inner>button {
+    background: black;
+    opacity: 0.0;
+    width: 5%;
+}
+
+.carousel-control-next:focus, .carousel-control-prev:focus {
+    opacity: 0.05 !important;
+}
+
+.carousel-control-next:hover, .carousel-control-prev:hover {
+    opacity: 0.1 !important;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 800px) {
+    .carousel-inner {
+        padding: 10px;
+    }
+    .img-text {
+        flex-direction: column;
+        padding: 0;
+    }
+    .alumni-img>img {
+        width: 20%;
+    }
+    .alumni-img {
+        justify-content: center;
+    }
+    .car-inner-container {
+        padding: 20px 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .social-wrap {
+        display: none;
+    }
+    .dropdown {
+        display: block;
+    }
+}
+
+@media (min-width: 992px) {
+    .dropdown {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .img-text {
+        flex-direction: column;
+    }
+    .alumni-img>img {
+        width: 20%;
+    }
+    .alumni-img {
+        justify-content: center;
+    }
+    .car-inner-container {
+        padding: 10px 10px;
+    }
+}
+
+/* ---------------------------
+   ALUMNI SECTION ENDS
+-----------------------------*/
+
+/* -----------------------------------------
+HEMANT'S SECTION ENDS HERE
+-------------------------------------------- */
+
+/* -----------------------------------------
+Abhay'S SECTION STARTS HERE
+--------------------------------------------  */
+
+/* --------------OUR TEAM STARTS---------------- */
+
+/* html,
+body {
+  position: relative;
+  height: 100%;
+} */
+
+.ourTeam {
+    position: relative;
+    background: url(/assets/img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ourTeam::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.705);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.team h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.swiper {
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.swiper-slide {
+    /* position: absolute; */
+    background-position: center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    /* background: #262626; */
+    /* background: green; */
+    border-radius: 50%;
+    margin: 20px;
+    transform: scale(100, 100);
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-slide-shadow-left, .swiper-slide-shadow-right {
+    display: none;
+}
+
+.swiper-slide-active {
+    /* transform: scale(1,1); */
+    width: 200px;
+    height: 200px;
+    /* transition: allease-in; */
+}
+
+.swiper-pagination {
+    bottom: 0 !important;
+    margin-top: 10px;
+}
+
+.swiper-wrapper {
+    align-items: center;
+}
+
+.page {
+    margin-top: 20px;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo li {
+    list-style: none;
+}
+
+.logo li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+    text-decoration: none;
+    color: white;
+}
+
+/* -----------------OUT TEAM ENDS---------------- */
+
+/* -------------FOOTER STARTS--------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+/* body {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background: #ede7f6;
+} */
+
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer .container .sec {
+    margin-right: 30px;
+}
+
+footer .container .sec.aboutus {
+    width: 40%;
+}
+
+footer .container h2 {
+    position: relative;
+    color: #4971FF;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(223, 209, 23);
+    width: 150px;
+}
+
+footer .container h2:before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+}
+
+footer p {
+    color: white;
+}
+
+.sci {
+    margin-top: 20px;
+    display: flex;
+}
+
+.sci li {
+    list-style: none;
+}
+
+.sci li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.sci li a:hover {
+    background: #4971FF;
+}
+
+.sci li a .fa {
+    color: #fff;
+    font-size: 20px;
+}
+
+.quickLinks {
+    position: relative;
+    width: 25%;
+}
+
+.quickLinks ul li {
+    list-style: none;
+}
+
+.quickLinks ul li a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.quickLinks ul li a:hover {
+    /* font-weight: 550; */
+    color: #4971FF;
+}
+
+.contact {
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+}
+
+.contact .info {
+    position: relative;
+}
+
+.contact .info li {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.contact .info li span:nth-child(1) {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contact .info li span {
+    color: #999;
+    cursor: pointer;
+}
+
+.contact .info li a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact .info li a:hover {
+    color: #fff;
+    color: #4971FF;
+    /* font-weight: 550; */
+}
+
+.contact .info li i {
+    color: var(--primary-blue);
+}
+
+.copyright {
+    width: 100%;
+    background: #181818;
+    padding: 8px 100px;
+    text-align: center;
+    color: #999;
+}
+
+@media (max-width: 991px) {
+    #Ql {
+        margin-top: 20px;
+    }
+    footer {
+        padding: 40px;
+    }
+    footer .container {
+        flex-direction: column;
+    }
+    footer .container.sec {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    footer .container .sec.sec.aboutus, .quickLinks, .contact {
+        width: 100%;
+    }
+    .copyright {
+        padding: 8px 40px;
+    }
+}
+
+/* --------------FOOTER ENDS-------------- */
+
+/* -----------------------------------------
+Abhay'S SECTION ENDS HERE
+-------------------------------------------- */
